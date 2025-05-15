@@ -1,0 +1,7 @@
+<h1>all posts</h1>
+{% for book in books %}
+    <h2>{{ book.title }}</h2>
+    <p>{{ book.description }}</p>
+    <p>{{ book.author }}</p>
+    <p>{{ book.published_date }}</p>
+{% endfor %}
